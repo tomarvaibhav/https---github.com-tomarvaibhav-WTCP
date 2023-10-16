@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- -------navigation bar ------->
+
+    <nav class="flex-div"> <!--it creates top navigation bar for youtube icon, search box and account details-->
+        <div class="nav-left flex-div"> <!-- 3 div for icon, search box and acct details-->
+            <img src="images/menu.png" alt="menu" class="menu">
+            <a href=""><img src="images/youtubelogo.png" alt="logo" class="logo"></a>
+
+
+        </div>
+
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Search">
+                <img src="images/search.png" class="search_icon">
+            </div>
+            <div class="mic flex-div">
+                <img src="images/voice-search.png">
+            </div>
+
+        </div>
+
+        <div class="nav-right flex-div">
+            <img src="images/upload.png" alt="">
+            <img src="images/more.png" alt="">
+            <img src="images/notification.png" alt="">
+            <img src="images/mypic.jpg" alt="" class="user-icon">
+
+        </div>
+
+    </nav>
+
+
+    <!-- -----sidebar----- -->
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href=""><img src="images/home.png">
+                <p>Home</p>
+            </a>
+            <a href=""><img src="images/explore.png">
+                <p>Explore</p>
+            </a>
+            <a href=""><img src="images/subscriprion.png">
+                <p>Subscriptions</p>
+            </a>
+            <a href=""><img src="images/library.png">
+                <p>Library</p>
+            </a>
+            <a href=""><img src="images/history.png">
+                <p>History</p>
+            </a>
+            <a href=""><img src="images/playlist.png">
+                <p>Playlist</p>
+            </a>
+            <a href=""><img src="images/messages.png">
+                <p>Messages</p>
+            </a>
+            <a href=""><img src="images/show-more.png">
+                <p>Show More</p>
+            </a>
+            <hr>
+        </div>
+        <div class="subscribed">
+            <h3>SUBSCRIBED</h3>
+            <a target="_blank" href="https://www.youtube.com/@sadhguru"><img src="images/sadhguru logo.jpg">
+                <p>sadhguru</p>
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@GaurGopalDas"><img src="images/gopal logo.jpg">
+                <p>Gaur Gopal Das</p>
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@ApnaCollegeOfficial"><img src="images/dbmslogo.jpg">
+                <p>Apna College</p>
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@LoveBabbar"><img src="images/babarlogo.jpg">
+                <p>Love Babar</p>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- ----main----- -->
+
+    <div class="container"> <!-- for banner -->
+        <div class="banner ">
+            <a href="https://www.linkedin.com/in/vaibhav-tomar-59b4b3234/"><img src="images/banner2.png"> </a>
+
+        </div>
+        <div class="video-container">
+            <div class="video-list">
+                <a href="data-science.html"><img src="images/atomic-habits-thumbnail.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/atomic-habits-logo.jpg">
+                    <div class="video-info">
+                        <a href="data-science.html">Atomic Habits for Mental Health
+                        </a>
+                        <p>
+                            Therapy in a Nutshell
+                            <img src="images/tickmark.png">
+                        </p>
+
+                        <!-- <p>CodeWithHarry </p> -->
+                        <p>1.3M views &bull; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-list">
+                <a href="oops.html"><img src="images/mental health brain thumbnail.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/mental health brain logo.jpg">
+                    <div class="video-info">
+                        <a href="oops.html">7 Questions To Ask To Check Your Mental Health
+                        </a>
+                        <p>
+                            Dr. Tracey Marks
+                            <img src="images/tickmark.png">
+                        </p>
+                        <p>292K views &bull; 2 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-list">
+                <a href="dbms.html"><img src="images/what is mental thumbnail.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/What is Mental Health logo.jpg">
+                    <div class="video-info">
+                        <a href="dbms.html">What is Mental Health?</a>
+                        <p>NYU School of Global Public Health <img src="images/tickmark.png"></p>
+                        <p>378K views &bull; 1 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-list">
+                <a href="iot.html"><img src="images/sadhguru thumbnail.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/sadhguru logo.jpg">
+                    <div class="video-info">
+                        <a href="iot.html">5 Tips to Improve your Mental Health
+                        </a>
+                        <p>sadhguru <img src="images/tickmark.png"></p>
+                        <p>2.1M views &bull; 4 years ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-list">
+                <a href="DSA.html"><img src="images/discipline thumbnail.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/discipline logo.jpg">
+                    <div class="video-info">
+                        <a href="DSA.html">DISCIPLINE YOURSELF - Motivational Speech
+                        </a>
+                        <p>
+                            Ben Lionel Scott
+                            <img src="images/tickmark.png">
+                        </p>
+                        <p>248K views &bull; 2 months ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-list">
+                <a href="Ajay-Raj.html"><img src="images/gopal thumbnail.jpg" class="thumbnail"></a>
+                <div class="flex-div">
+                    <img src="images/gopal logo.jpg">
+                    <div class="video-info">
+                        <a href="Ajay-Raj.html">Want Stable Mental Health? Take Charge Of Your Feelings | Gaur Gopal Das</a>
+                        <p>Gaur Gopal Das <img src="images/tickmark.png"></p>
+                        <p>718K views &bull; 1 years ago</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
